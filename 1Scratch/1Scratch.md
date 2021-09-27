@@ -106,14 +106,14 @@
 
 
   - **Problems**
-        - Running into issue where is only changes to one costume.
-        - For the longest time, how I moved the bear from right to left was the gliding function. Because of that, I couldn't figure out why the condition where if the bear runs into Avery, it would stop and take a life away. After a couple of stressful hours, I realized that gliding wasn't the correct way to move the sprite, and that actually using "Move *x* steps" was the right way.
+    - Running into issue where is only changes to one costume.
+    - For the longest time, how I moved the bear from right to left was the gliding function. Because of that, I couldn't figure out why the condition where if the bear runs into Avery, it would stop and take a life away. After a couple of stressful hours, I realized that gliding wasn't the correct way to move the sprite, and that actually using "Move *x* steps" was the right way.
 
-        - Once I figured that out, the next problem was how to restart level 2 once the bear touches Avery. I lost control of the Bear as it kept running around
-          - After careful reading and trying to think like a computer, my solution was:
-            - If the bear wasn't touching Avery, then start from right, and run left until bear hits the edge, and wait for a second
-            - Repeats until the bear runs into Avery
-            - Once it touches Avery, a life is taken away and I broadcast to start level 2 again
+      - Once I figured that out, the next problem was how to restart level 2 once the bear touches Avery. I lost control of the Bear as it kept running around
+        - After careful reading and trying to think like a computer, my solution was:
+          - If the bear wasn't touching Avery, then start from right, and run left until bear hits the edge, and wait for a second
+          - Repeats until the bear runs into Avery
+          - Once it touches Avery, a life is taken away and I broadcast to start level 2 again
 
         - Tried to figure out a way how to make Avery move as smoothly as the bear, but couldn't figure it out.
           - If I put loop Avery's movements, she runs forever and I lose control of her
