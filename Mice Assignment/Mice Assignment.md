@@ -1,4 +1,4 @@
-#Mice Assignment Documentation
+##Mice Assignment Documentation
 Started this in class, just spent time before this setting up and trying to understand how to start the Assignment
   - **Goal:** to figure out a calculation that equals to 3, then afterwards say *Blind Mice* with spaces and new lines and stuff
 
