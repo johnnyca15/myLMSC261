@@ -14,11 +14,11 @@ Started this in class, just spent time before this setting up and trying to unde
     - Now I have to figure out how to create a calculation and use the answer
       - f-string math example
     - if I can only use one "print" function then I have to combine the calculation and tab and create new line for *blind mice* into one.
-      - more parenthesis?
+      - more indentations?
       - Added math to words
         - print(f"{10-7} turkey burger")
         - now to add new lines and indentations
          - print(f"{10-7}\n\tBlind\n\t\tMice")
       - oh wait that's too far apart
       - Going back to *Printing paramenters and f-string* since I remember there was an option for spacing.
-      - print(f"{10-7}\n  Blind\n\tMice")
+      - print(f"  {10-7}\n    Blind\n\tMice") works
