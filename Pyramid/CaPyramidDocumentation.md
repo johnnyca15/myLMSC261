@@ -1,21 +1,37 @@
-#Documentation for Pyramid Assignment
+# Documentation for Pyramid Assignment
+
+
 Using the lecture notes, I found that the last example was close to the assignment and that I should use that as my base and see what I can change to fit the Assignment
+
+
 
 for i in range(10):
   for j in range(10):
     if j >= i:
       print(j, end='')
 
+
+
+
 So this is all for numbers and it starts with a lot of numbers, and work down to the left. What I need to change is from numbers to *#* and have it descending to the right instead of left
+
+
 
 for i in range(num):
   for j in range(num):
     print('#', end='')
   print()
 
+
+
+
+
   from Assignment-Pyramid MarkDown file
   This creates the # format but is a square than a Pyramid
   Must be a combination of the first and second code
+
+
+
 
 
 for i in range (10):
@@ -24,9 +40,19 @@ for i in range (10):
 			print('#', end='')
 		print()
 
+
+
+
    My first attempt, it did descend but it didn't stack
 
    Should have gone to the tutor since I'm confused
+
+
+
+
+
+
+
 
 for i in range (10):
  	for j in range(10):
@@ -38,11 +64,21 @@ This does the opposite but at least now it goes from least to greatest.
 
 Maybe if I add a ({i}=1) function or something, that might work?
 
+
+
+
+
+
 Reread the assignment and found that I have to create an input/ask the user what the *stack* is
 
 Had to look at the Boston Season exercise to figure out exactly how I used the input function.
 So *stacks*= how long the pyramid will be.
 I know the **else**: function would be any number outside of 1-8 so I can put in "*The number you put in is invalid*".
+
+
+
+
+## help
 
 Here is where I was very confused on the next steps and should have gone to the tutor for help
   ended up resorting to a youtube video that I will post the reference and link and citation:
@@ -96,7 +132,8 @@ I added a condition for the pyramid, that it only works if it's less than or equ
 
 I created an else, that if it's not a negative number, or between 1-8, then it would print "Number of stacks must be between 1-8"
 
-**Challenges I Faced**
+## Challenges I Faced
+
 Quite a lot actually
 
 I've had a lot of issues during class that I can't follow along the code along sometimes, so it's mostly doing catch up.
