@@ -673,4 +673,17 @@ sleep 2
 
 #Things I Struggled In
 
-- I realized I took a lot of notes
+- I felt like I took a lot of notes and was overwhelmed with all of the possibilities. It was similar to learning a really intense DAW in a span of 2 weeks, and I didn't have a set idea of what song I wanted to work on at first
+- Nesting and looping was definitely confusing at first as I wasn't sure where it ended and kept getting error messages.
+  - example: repeats inside repeats
+- It wasn't insanely difficult, but I found that it was somewhat tedious and that I couldn't just only copy and paste.
+- Most of the forums and helps that I got online were helpful but some other ones weren't as helpful as their works were much more advanced. It felt like I was asking how to drive from Formula One Racers (wierd analogy).
+- Similar to the first point, I didn't have a set song idea in mind, and just told myself that I was going to figure out a song once I took all of the notes and learn how it works. Because of that, I took information that wasn't really applicable to what I ended up with. I should have pseudocoded or at least thought out what I needed and how to do it. I'll have to learn from this project and make sure I am more prepared and organized on how to achieve what I wanted.
+- *Cmd+s* does not mean save... took me awhile to realized it. Luckily *cmd+z* was still the same though.
+
+#Things That Helped Me
+- The *cmd+i* function definitely helped me understand how a lot of things worked. I really like how Sonic-Pi includes the functions and provides examples.
+  - I was able to understand the chord inversions from the help tab, rather than having to insert each note individually
+- Another thing that was useful and helped me save some time was the "auto-select" feature, where it can predict what I want to write and I can pick from a lot of the options
+  - *sample :* would give me a list of all of the possible options and I can filter in and pick a certain one.
+    - It made picking a sound a lot more obtainable and fast.
